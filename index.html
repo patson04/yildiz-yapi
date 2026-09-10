@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Yıldız Yapı - Ankara'da alçıpan, asma tavan, bölme duvar, dekoratif yapılar ve stropiyer uygulamaları.">
+
+    <meta name="keywords"
+        content="Ankara alçıpan, asma tavan, bölme duvar, dekoratif yapı, stropiyer">
+
+    <meta name="author" content="Yıldız Yapı">
+
+    <meta name="theme-color" content="#111c24">
+
+    <title>Yıldız Yapı | Alçıpan ve Dekorasyon</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="logo">
+            YILDIZ <span>YAPI</span>
+        </div>
+
+
+        <button
+            class="menu-btn"
+            onclick="menuAcKapat()"
+            aria-label="Menüyü aç veya kapat"
+            aria-expanded="false"
+            type="button">
+
+            ☰
+
+        </button>
+
+
+        <nav aria-label="Ana menü">
+
+            <ul id="menu">
+
+                <li>
+                    <a href="#anasayfa"
+                       onclick="sayfaGoster('anasayfa'); return false;">
+                        Ana Sayfa
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#hakkimizda"
+                       onclick="sayfaGoster('hakkimizda'); return false;">
+                        Hakkımızda
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#hizmetler"
+                       onclick="sayfaGoster('hizmetler'); return false;">
+                        Hizmetlerimiz
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projeler"
+                       onclick="sayfaGoster('projeler'); return false;">
+                        Projelerimiz
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#iletisim"
+                       onclick="sayfaGoster('iletisim'); return false;">
+                        İletişim
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         SAYFALAR
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             ANA SAYFA
+        ========================== -->
+
+        <section id="anasayfa" class="page active">
+
+            <div class="hero">
+
+                <div class="hero-glow"></div>
+
+                <div class="hero-decoration decoration-one"></div>
+                <div class="hero-decoration decoration-two"></div>
+                <div class="hero-decoration decoration-three"></div>
+
+
+                <div class="hero-content reveal">
+
+                    <div class="hero-line"></div>
+
+                    <div class="hero-small">
+                        YILDIZ YAPI
+                    </div>
+
+
+                    <h1>
+                        Mekânlarınıza
+                        <span>Yeni Bir Dokunuş</span>
+                    </h1>
+
+
+                    <p>
+                        Alçıpan ve dekorasyon uygulamalarında
+                        kaliteli, özenli ve profesyonel işçilik.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <button
+                            class="main-button"
+                            onclick="sayfaGoster('projeler')"
+                            type="button">
+
+                            Projelerimizi Gör
+
+                        </button>
+
+
+                        <button
+                            class="second-button"
+                            onclick="sayfaGoster('iletisim')"
+                            type="button">
+
+                            Bize Ulaşın
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-bottom">
+
+                    <span>ALÇIPAN</span>
+                    <span>ASMA TAVAN</span>
+                    <span>BÖLME DUVAR</span>
+                    <span>DEKORATİF YAPILAR</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             HAKKIMIZDA
+        ========================== -->
+
+        <section id="hakkimizda" class="page">
+
+            <div class="page-container">
+
+                <div class="section-title reveal">
+
+                    <span>YILDIZ YAPI</span>
+
+                    <h2>Hakkımızda</h2>
+
+                </div>
+
+
+                <div class="about-content">
+
+
+                    <div class="about-text reveal">
+
+                        <h3>
+                            İşimizi özenle, temiz ve kaliteli
+                            şekilde yapıyoruz.
+                        </h3>
+
+
+                        <p>
+                            Yıldız Yapı olarak Ankara genelinde
+                            alçıpan ve dekorasyon uygulamaları
+                            gerçekleştiriyoruz.
+                        </p>
+
+
+                        <p>
+                            Alçıpan, asma tavan, bölme duvar,
+                            dekoratif yapılar ve stropiyer
+                            uygulamalarında müşterilerimizin
+                            ihtiyaçlarına uygun çözümler sunuyoruz.
+                        </p>
+
+
+                        <p>
+                            Her projemizde kaliteli malzeme,
+                            düzgün işçilik ve temiz çalışma
+                            anlayışına önem veriyoruz.
+                        </p>
+
+
+                        <p>
+                            Amacımız, müşterilerimizin beklentilerini
+                            karşılayan kullanışlı ve estetik
+                            yaşam alanları ortaya çıkarmaktır.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- HAKKIMIZDA FOTOĞRAFLARI -->
+
+                    <div class="about-images reveal">
+
+
+                        <div class="about-image image-one">
+
+                            <img
+                                src="resimleer/haki.jpeg"
+                                alt="Yıldız Yapı alçıpan çalışması"
+                                loading="lazy"
+                                decoding="async">
+
+                            <div class="image-number">
+                                01
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-image image-two">
+
+                            <img
+                                src="resimleer/haki1.jpeg"
+                                alt="Yıldız Yapı dekorasyon uygulaması"
+                                loading="lazy"
+                                decoding="async">
+
+                            <div class="image-number">
+                                02
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             HİZMETLER
+        ========================== -->
+
+        <section id="hizmetler" class="page">
+
+            <div class="page-container">
+
+
+                <div class="section-title reveal">
+
+                    <span>NELER YAPIYORUZ?</span>
+
+                    <h2>Hizmetlerimiz</h2>
+
+                </div>
+
+
+                <div class="services">
+
+
+                    <div class="service-card reveal tilt-card">
+
+                        <div class="service-icon">
+                            ◆
+                        </div>
+
+                        <h3>Alçıpan</h3>
+
+                        <p>
+                            İç mekânlarda farklı ihtiyaçlara
+                            yönelik alçıpan uygulamaları.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="service-card reveal tilt-card">
+
+                        <div class="service-icon">
+                            ◆
+                        </div>
+
+                        <h3>Asma Tavan</h3>
+
+                        <p>
+                            Mekânlara modern ve düzenli bir görünüm
+                            kazandıran asma tavan uygulamaları.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="service-card reveal tilt-card">
+
+                        <div class="service-icon">
+                            ◆
+                        </div>
+
+                        <h3>Bölme Duvar</h3>
+
+                        <p>
+                            Alanları daha kullanışlı hale getiren
+                            bölme duvar uygulamaları.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="service-card reveal tilt-card">
+
+                        <div class="service-icon">
+                            ◆
+                        </div>
+
+                        <h3>Dekoratif Yapılar</h3>
+
+                        <p>
+                            İç mekânlara farklı bir görünüm
+                            kazandıran dekoratif uygulamalar.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="service-card reveal tilt-card">
+
+                        <div class="service-icon">
+                            ◆
+                        </div>
+
+                        <h3>Stropiyer</h3>
+
+                        <p>
+                            Tavan ve duvarlarda estetik görünüm
+                            sağlayan stropiyer uygulamaları.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJELER
+        ========================== -->
+
+        <section id="projeler" class="page">
+
+            <div class="page-container">
+
+
+                <div class="section-title reveal">
+
+                    <span>ÇALIŞMALARIMIZ</span>
+
+                    <h2>Projelerimiz</h2>
+
+                </div>
+
+
+                <p class="project-description reveal">
+                    Gerçekleştirdiğimiz çalışmalardan bazıları.
+                    Fotoğraflara tıklayarak büyütebilirsiniz.
+                </p>
+
+
+                <div class="projects">
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan.jpeg"
+                             alt="Yıldız Yapı proje çalışması 1"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan1.jpeg"
+                             alt="Yıldız Yapı proje çalışması 2"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan2.jpeg"
+                             alt="Yıldız Yapı proje çalışması 3"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan3.jpeg"
+                             alt="Yıldız Yapı proje çalışması 4"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan4.jpeg"
+                             alt="Yıldız Yapı proje çalışması 5"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan5.jpeg"
+                             alt="Yıldız Yapı proje çalışması 6"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan6.jpeg"
+                             alt="Yıldız Yapı proje çalışması 7"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan7.jpeg"
+                             alt="Yıldız Yapı proje çalışması 8"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan8.jpeg"
+                             alt="Yıldız Yapı proje çalışması 9"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tan9.jpeg"
+                             alt="Yıldız Yapı proje çalışması 10"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane.jpeg"
+                             alt="Yıldız Yapı proje çalışması 11"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane1.jpeg"
+                             alt="Yıldız Yapı proje çalışması 12"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane2.jpeg"
+                             alt="Yıldız Yapı proje çalışması 13"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane3.jpeg"
+                             alt="Yıldız Yapı proje çalışması 14"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane4.jpeg"
+                             alt="Yıldız Yapı proje çalışması 15"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane5.jpeg"
+                             alt="Yıldız Yapı proje çalışması 16"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane6.jpeg"
+                             alt="Yıldız Yapı proje çalışması 17"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane7.jpeg"
+                             alt="Yıldız Yapı proje çalışması 18"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane8.jpeg"
+                             alt="Yıldız Yapı proje çalışması 19"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/tane9.jpeg"
+                             alt="Yıldız Yapı proje çalışması 20"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/taner.jpeg"
+                             alt="Yıldız Yapı proje çalışması 21"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/taner1.jpeg"
+                             alt="Yıldız Yapı proje çalışması 22"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                    <div class="project reveal tilt-card">
+                        <img src="resimleer/taner2.jpeg"
+                             alt="Yıldız Yapı proje çalışması 23"
+                             loading="lazy"
+                             decoding="async">
+                        <div class="project-overlay">
+                            <span>İNCELE</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             İLETİŞİM
+        ========================== -->
+
+        <section id="iletisim" class="page">
+
+            <div class="page-container">
+
+
+                <div class="section-title reveal">
+
+                    <span>BİZE ULAŞIN</span>
+
+                    <h2>İletişim</h2>
+
+                </div>
+
+
+                <div class="contact-container">
+
+
+                    <div class="contact-card reveal tilt-card">
+
+                        <div class="contact-icon">
+                            ☎
+                        </div>
+
+                        <h3>Telefon</h3>
+
+                        <p>
+                            Bize doğrudan ulaşabilirsiniz.
+                        </p>
+
+                        <a href="tel:+905468957778">
+                            +90 546 895 77 78
+                        </a>
+
+                    </div>
+
+
+
+                    <div class="contact-card reveal tilt-card">
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+                        <h3>Hizmet Bölgemiz</h3>
+
+                        <p>
+                            Ankara ve çevresinde
+                            hizmet veriyoruz.
+                        </p>
+
+                        <span class="contact-highlight">
+                            ANKARA
+                        </span>
+
+                    </div>
+
+
+
+                    <div class="contact-card reveal tilt-card">
+
+                        <div class="contact-icon">
+                            💬
+                        </div>
+
+                        <h3>WhatsApp</h3>
+
+                        <p>
+                            Projeniz hakkında bilgi almak
+                            için bize mesaj gönderebilirsiniz.
+                        </p>
+
+                        <a
+                            href="https://wa.me/905468957778"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            WhatsApp'tan Yazın
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOTOĞRAF MODAL
+    ========================== -->
+
+    <div
+        id="imageModal"
+        class="image-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Fotoğraf görüntüleme">
+
+        <button
+            class="close-modal"
+            onclick="modalKapat()"
+            aria-label="Fotoğrafı kapat"
+            type="button">
+
+            ×
+
+        </button>
+
+
+        <img
+            id="modalImage"
+            src=""
+            alt="Büyük görsel">
+
+    </div>
+
+
+
+    <!-- =========================
+         WHATSAPP
+    ========================== -->
+
+    <a
+        href="https://wa.me/905468957778"
+        class="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp'tan iletişime geç">
+
+        W
+
+    </a>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            YILDIZ <span>YAPI</span>
+        </div>
+
+        <p>
+            Alçıpan ve dekorasyon uygulamalarında
+            kaliteli işçilik.
+        </p>
+
+        <p class="copyright">
+            © 2026 Yıldız Yapı
+        </p>
+
+  </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
